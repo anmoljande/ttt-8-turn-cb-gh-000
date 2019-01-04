@@ -46,7 +46,7 @@ def turn(board)
   else
     val=gets.strip
   end 
-  count+=1 
+ # count+=1 
  display_board(board)
-end   
+#end   
 end

@@ -43,6 +43,8 @@ def turn(board)
   index=input_to_index(val)
   if valid_move?(board, index)==TRUE
     move(board,index)
+  else
+    val=gets.strip
   end 
   count+=1 
  display_board(board)
